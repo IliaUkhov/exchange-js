@@ -1,0 +1,56 @@
+[
+  {
+    "symbol": "AAPL",
+    "company": "Apple",
+    "initialPrice": 200.0,
+    "currentPrice": 200.0,
+    "amount": 100,
+    "distribution": "uniform",
+    "maxChangePercentage": 20
+  },
+  {
+    "symbol": "MSFT",
+    "company": "Microsoft",
+    "initialPrice": 200.0,
+    "currentPrice": 200.0,
+    "amount": 120,
+    "distribution": "uniform",
+    "maxChangePercentage": 20
+  },
+  {
+    "symbol": "TSLA",
+    "company": "Tesla",
+    "initialPrice": 300.0,
+    "currentPrice": 300.0,
+    "amount": 40,
+    "distribution": "uniform",
+    "maxChangePercentage": 20
+  },
+  {
+    "symbol": "AMZN",
+    "company": "Amazon",
+    "initialPrice": 350.0,
+    "currentPrice": 350.0,
+    "amount": 200,
+    "distribution": "normal",
+    "maxChangePercentage": 20
+  },
+  {
+    "symbol": "INTC",
+    "company": "Intel",
+    "initialPrice": 200.0,
+    "currentPrice": 200.0,
+    "amount": 100,
+    "distribution": "uniform",
+    "maxChangePercentage": 20
+  },
+  {
+    "symbol": "NVDA",
+    "company": "Nvidia",
+    "initialPrice": 300.0,
+    "currentPrice": 300.0,
+    "amount": 30,
+    "distribution": "normal",
+    "maxChangePercentage": 20
+  }
+]

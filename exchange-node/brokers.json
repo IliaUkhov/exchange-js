@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Stallman",
+    "balance": 10.0,
+    "stocks": []
+  },
+  {
+    "name": "Raymond",
+    "balance": 15.0,
+    "stocks": []
+  },
+  {
+    "name": "Einstein",
+    "balance": 1000.0,
+    "stocks": [
+      {
+        "symbol": "AAPL",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "name": "Feynmann",
+    "balance": 500.0,
+    "stocks": [
+      {
+        "symbol": "TSLA",
+        "amount": 15
+      },
+      {
+        "symbol": "AMZN",
+        "amount": 5
+      }
+    ]
+  }
+]

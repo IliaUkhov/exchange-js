@@ -1,0 +1,9 @@
+{
+    "exchangeStart": "0 10 * * *",
+    "exchangeEnd": "0 13 * * *",
+    "stockPriceUpdate": "* * * * *",
+    "admins": [
+        "Stallman",
+        "Raymond"
+    ]
+}
