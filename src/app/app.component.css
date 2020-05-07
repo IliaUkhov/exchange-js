@@ -1,0 +1,12 @@
+mat-toolbar * {
+    margin-left: 30px;
+}
+mat-toolbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: slategray;
+}
+mat-toolbar * a {
+    color: snow;
+}

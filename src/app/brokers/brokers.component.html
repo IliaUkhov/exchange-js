@@ -1,0 +1,13 @@
+<mat-list *ngIf="brokers$ | async as brokers">
+  <mat-list-item *ngFor="let broker of brokers; index as i">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ broker.name }}</mat-card-title>
+      </mat-card-header>
+      <label>Balance: </label>
+      <input [(ngModel)]="brokers[i]['balance']" (change)="updateBroker(i, brokers[i])">
+      <button (click)="deleteBroker(i)">Delete</button>
+    </mat-card>
+  </mat-list-item>
+</mat-list>
+  

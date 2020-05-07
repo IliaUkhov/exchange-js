@@ -1,0 +1,15 @@
+<mat-list *ngIf="stocks$ | async as stocks">
+  <mat-list-item *ngFor="let stock of stocks; index as i">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ stock.symbol }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        {{ stock.company }}
+      </mat-card-content>
+      <label>Initial price: </label>
+      <input [(ngModel)]="stocks[i]['initialPrice']" (change)="updateStock(i, stocks[i])">
+      <button (click)="deleteStock(i)">Delete</button>
+    </mat-card>
+  </mat-list-item>
+</mat-list>

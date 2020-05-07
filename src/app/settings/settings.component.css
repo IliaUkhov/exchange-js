@@ -1,0 +1,12 @@
+mat-list-item {
+    width: 30%;
+    height: fit-content !important;
+    margin-top: 15px;
+}
+mat-card {
+    width: 100%;
+    height: fit-content !important;
+}
+mat-list {
+    margin-top: 50px;
+}
