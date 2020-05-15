@@ -5,7 +5,7 @@
       <mat-card-title>Exchange Start Time</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-      <input [(ngModel)]="settings['exchangeStartTime']" (change)="updateSettings(settings)">
+      <input [(ngModel)]="settings['exchangeStart']" (change)="updateSettings(settings)">
     </mat-card-content>
   </mat-card>
   </mat-list-item>
@@ -15,7 +15,7 @@
       <mat-card-title>Exchange End Time</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-      <input [(ngModel)]="settings['exchangeEndTime']" (change)="updateSettings(settings)">
+      <input [(ngModel)]="settings['exchangeEnd']" (change)="updateSettings(settings)">
     </mat-card-content>
   </mat-card>
 </mat-list-item>
@@ -25,7 +25,7 @@
       <mat-card-title>Stock Price Update Interval</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-      <input [(ngModel)]="settings['stockPriceUpdateInterval']" (change)="updateSettings(settings)">
+      <input [(ngModel)]="settings['stockPriceUpdate']" (change)="updateSettings(settings)">
     </mat-card-content>
   </mat-card>
   </mat-list-item>

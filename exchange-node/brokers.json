@@ -15,7 +15,18 @@
     "stocks": [
       {
         "symbol": "AAPL",
-        "amount": 10
+        "amount": 10,
+        "profit": 0
+      },
+      {
+        "symbol": "NVDA",
+        "amount": 20,
+        "profit": 0
+      },
+      {
+        "symbol": "AMZN",
+        "amount": 10,
+        "profit": 0
       }
     ]
   },
@@ -24,12 +35,24 @@
     "balance": 500.0,
     "stocks": [
       {
+        "symbol": "AAPL",
+        "amount": 8,
+        "profit": 0
+      },
+      {
         "symbol": "TSLA",
-        "amount": 15
+        "amount": 15,
+        "profit": 0
       },
       {
         "symbol": "AMZN",
-        "amount": 5
+        "amount": 6,
+        "profit": 0
+      },
+      {
+        "symbol": "INTC",
+        "amount": 12,
+        "profit": 0
       }
     ]
   }
